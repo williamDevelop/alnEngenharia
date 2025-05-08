@@ -28,19 +28,22 @@ body {
 }
 
 
+
+
+
 /* HERO */
 .hero {
-  background-image: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url('hedaer.png');
+ background-image: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url('hedaer.png');
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  animation: zoomBackground 10s ease-in-out infinite; /* 👈 Aqui está a animação */
-  padding: 80px 40px;
-  min-height: 100vh;
+  background-repeat: repeat;
+  animation: zoomBackground 10s ease-in-out infinite;
+  height: 100vh;
   color: white;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  padding: 0 40px;
 }
 
 
